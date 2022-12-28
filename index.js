@@ -27,7 +27,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>')
+  res.send('<h1>Hello Friend!</h1>')
 })
 
 const generateId = () => {
